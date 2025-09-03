@@ -26,3 +26,6 @@ for (let i = 0; i < user123.length; i++) {
 
   console.log(user123[i], typeof user123[i]); // 'YouRa' string, 'Alkoholov' string
 }
+
+
+// YouRa gonit bessa bitch mather fuck off! 
