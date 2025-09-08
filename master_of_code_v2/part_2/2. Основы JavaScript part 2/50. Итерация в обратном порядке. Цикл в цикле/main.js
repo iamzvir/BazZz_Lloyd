@@ -90,3 +90,20 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
+// Пройти по матрице (2D массив) и вывести каждый элемент с координатами [i][j]
+// Подсказка: вложенный цикл, используйте matrix[i][j]. Вывести "row i col j -> value"
+
+const matrix = [['петя', 'vasya', 'mikluha'], ['mcFly', 'Joel', 'Erni'], ['Pidr', 'loh', 'Shand']];
+console.log(matrix.length); // 3
+
+
+// matrix.length равен 3, это число строк (rows)
+for (let i = 0; i < matrix.length; i++) {
+
+  // matrix[i].length равен 3, это число столбцов строке (columns)
+  for (let j = 0; j < matrix[i].length; j++) {
+
+    console.log(`строка ${i} столбец ${j} -> ${matrix[i][j]}`)
+  }
+}
+
