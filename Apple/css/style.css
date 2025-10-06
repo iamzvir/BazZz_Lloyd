@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.section-main {
+  padding-top: 55px;
+  text-align: center;
+  min-height: 692px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.iphone-pro {
+  background-image: image-set('../images/hero_iphone_17_pro.avif' type('image/avif'), '../images/hero_iphone_17_pro.webp', '../images/hero_iphone_17_pro.jpg');
+}
+
+.iphone-air {
+  background-image: image-set('../images/hero_iphone_air.avif' type('image/avif'), '../images/hero_iphone_air.webp', '../images/hero_iphone_air.jpg');
+}
+
+.iphone {
+  background-image: image-set('../images/hero_iphone_17.avif' type('image/avif'), '../images/hero_iphone_17.webp', '../images/hero_iphone_17.jpg');
+}
