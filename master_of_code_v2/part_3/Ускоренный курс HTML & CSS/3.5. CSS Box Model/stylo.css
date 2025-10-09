@@ -1,0 +1,26 @@
+
+
+
+body {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.first {
+    color: blue;
+    background: chartreuse;
+}
+
+#name {
+    background-color: rgb(106, 176, 176);
+    border: 3px solid rgb(106, 176, 176);
+}
+
+#paragraf2 {
+    background-color: rgb(105, 181, 182);
+}
